@@ -1,4 +1,4 @@
-// import { Menu, X } from "lucide-react";
+import { Search, ShoppingCart } from "lucide-react";
 // import { useState } from "react";
 import { navItems } from "../constants/index";
 import logo from "../assets/logo.png"
@@ -24,18 +24,13 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-12 items-center">
-            
-            <a
-              href="#"
-              className="bg-gradient-to-r from-gray-700 to-gray-900 text-white py-2 px-3 rounded-md shadow-md transform hover:scale-105 hover:from-gray-800 hover:to-gray-900 transition-all duration-300 ease-in-out"
-
-
-
-
-            >
-            Talk to Us
-            </a>
+          
+          <div className="hidden lg:flex justify-center space-x-6 items-center text-white">
+          
+          <Search className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
+          <ShoppingCart className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
+  
+         
           </div>
 
          
