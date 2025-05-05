@@ -5,7 +5,7 @@ export const navItems = [
   { label: "Plant type", href: "#" },
   { label: "More", href: "#" },
   { label: "Contact", href: "#" },
-  { label: "Ourstory", href: "#" },
+  
 ];
 
 
