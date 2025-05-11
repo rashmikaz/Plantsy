@@ -7,7 +7,7 @@ const review = () => {
         <div className="glass-card">
           <div className="flex flex-col items-center text-center space-y-4">
         <img
-          src="src/assets/review-01.jpg"
+          src="src/assets/review-01.jpeg"
           alt="Alena Patel"
           className="w-20 h-20 rounded-full object-cover border-2 border-white/30 relative right-27 top-8"
         />

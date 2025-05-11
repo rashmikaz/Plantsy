@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageSlider from "./ImageSlider/ImageSlider"
+import Review from './review/review'
 
 const main = () => {
   return (
@@ -20,6 +21,10 @@ const main = () => {
 
      <div className="relative left-100 bottom-50">
       <ImageSlider />
+     </div>
+
+     <div className="relative bottom-95 left-30">
+      <Review />
      </div>
     </div>
   )
