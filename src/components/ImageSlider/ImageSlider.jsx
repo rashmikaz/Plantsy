@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 
 const image1 = "src/assets/image-1.jpg";
-const image2 = "src/assets/image-2.png";
+const image2 = "src/assets/image-2.jpeg";
 const image3 = "src/assets/image-3.png";
 const image4 = "src/assets/image-4.png";
 const image5 = "src/assets/5.jpg";
