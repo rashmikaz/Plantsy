@@ -1,0 +1,159 @@
+.ImageSlider {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+  }
+  
+  .middleImage {
+    height: 350px;
+    width: 250px;
+    z-index: 1;
+  }
+  
+  .rightImage,
+  .leftImage {
+    height: 230px;
+    width: 150px;
+    z-index: 0;
+    filter: blur(3px) saturate(0.5);
+    transform: scale(0.95);
+  }
+  
+  .imageWrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  .infoOverlay {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+  }
+  
+  .infoOverlay h3,
+  .infoOverlay h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .infoOverlay p {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .infoOverlay button {
+    margin-top: 5px;
+    padding: 5px 10px;
+  
+    border-radius: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    transform: translateY(-30px);
+  
+    position: relative;
+    top: 40px;
+  }
+  
+  .rightButton,
+  .leftButton {
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rightButton {
+    transform: scaleX(-1);
+  }
+  
+  .rightButton:hover,
+  .leftButton:hover {
+    /* background-color: #fff; */
+    color: #fff;
+  }
+  
+  .dotsPlace {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .dots {
+    height: 8px;
+    width: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .dots.active {
+    background-color: white;
+    transform: scale(1.5);
+  }
+  
+  .dots.passive {
+    background-color: transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .Images {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .rightImage,
+    .leftImage {
+      display: none;
+    }
+  
+    .middleImage {
+      width: 220px;
+      height: 300px;
+    }
+  
+    .buttons {
+      transform: translateY(0);
+    }
+  }
+  
