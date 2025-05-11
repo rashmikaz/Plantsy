@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageSlider from "./ImageSlider/ImageSlider"
 
 const main = () => {
   return (
@@ -15,6 +16,10 @@ const main = () => {
           Explore
         </a>
 
+     </div>
+
+     <div className="relative left-100 bottom-50">
+      <ImageSlider />
      </div>
     </div>
   )
