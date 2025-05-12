@@ -12,6 +12,15 @@ const trendy = () => {
               <h1 className="text-4xl relative bottom-120 left-35">For Small Decs Ai Plat</h1>
               <p className="w-140 relative bottom-115 left-60 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
               <h1 className="text-4xl relative bottom-110 left-8">Rs. 599/-</h1>
+
+              <a 
+              href="#" 
+              role="button"
+              aria-label="View References"
+              className="py-3 px-9 mx-5 rounded-md border relative bottom-103 left-5"
+              >
+              Explore
+              </a>
             </div>
        
         
