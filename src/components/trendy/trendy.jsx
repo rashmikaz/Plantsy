@@ -1,5 +1,6 @@
 import React from 'react'
 import "./trendy.css";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
 
 const trendy = () => {
   return (
@@ -17,10 +18,14 @@ const trendy = () => {
               href="#" 
               role="button"
               aria-label="View References"
-              className="py-3 px-9 mx-5 rounded-md border relative bottom-103 left-5"
+              className="py-3 px-9 mx-5 rounded-md border relative bottom-103 left-11"
               >
               Explore
               </a>
+              <button className="border border-white/120 text-white p-3 rounded-md hover:bg-white/10 transition relative bottom-102 left-11">
+              <HiOutlineShoppingBag className="text-xl" />
+              </button>
+
             </div>
        
         
