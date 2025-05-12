@@ -7,6 +7,7 @@ const trendy = () => {
       <h1 className="relative bottom-45 left-120 text-6xl">Our Trendy plants</h1>
       <div className="glass-card-1">
           <div className="flex flex-col items-center text-center space-y-4">
+            <img src="src/assets/trendy-01.png" alt="" className="relative right-95 bottom-35" />
        
         
       
