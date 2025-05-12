@@ -36,10 +36,10 @@ const trendy = () => {
     </div>
 
 
-    <div className="relative bottom-15">
+    <div className="relative bottom-12">
       <div className="glass-card-1">
           <div className="flex flex-col items-center text-center space-y-4">
-            <img src="src/assets/trendy-01.png" alt="" className="relative left-90 bottom-35" />
+            <img src="src/assets/trendy-02.png" alt="" className="relative left-90 bottom-35" />
             <div className="relative right-120">
               <h1 className="text-4xl relative bottom-120 left-35">For Fresh Decs Ai Plat</h1>
               <p className="w-140 relative bottom-115 left-60 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
