@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-/* :root {
+:root {
+   
+
+   
     font-family: "Poppins", sans-serif;
-    color-scheme: dark;
-  } */
+    background-color: #1B2316;
+    color: white;
+    /* overflow-x: hidden; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+
+  }
+
