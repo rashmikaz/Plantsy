@@ -10,7 +10,7 @@ const customer = () => {
         <div className="glass-card-customer">
           <div className="flex flex-col items-center text-center space-y-4">
         <img
-          src="src/assets/review-01.jpeg"
+          src="src/assets/customer-01.jpeg"
           alt="Alena Patel"
           className="w-20 h-20 rounded-full object-cover border-2 border-white/30 relative right-27 top-8"
         />
@@ -35,7 +35,7 @@ const customer = () => {
         <div className="glass-card-customer">
           <div className="flex flex-col items-center text-center space-y-4">
         <img
-          src="src/assets/review-01.jpeg"
+          src="src/assets/customer-02.jpeg"
           alt="Alena Patel"
           className="w-20 h-20 rounded-full object-cover border-2 border-white/30 relative right-27 top-8"
         />
@@ -60,7 +60,7 @@ const customer = () => {
         <div className="glass-card-customer">
           <div className="flex flex-col items-center text-center space-y-4">
         <img
-          src="src/assets/review-01.jpeg"
+          src="src/assets/customer-03.jpeg"
           alt="Alena Patel"
           className="w-20 h-20 rounded-full object-cover border-2 border-white/30 relative right-27 top-8"
         />
