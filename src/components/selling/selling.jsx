@@ -23,7 +23,7 @@ const selling = () => {
      <div className="relative bottom-110 left-105">
      <div className="selling-card">
      <div className="flex flex-col items-center text-center space-y-4">
-     <img src="src/assets/selling-01.png" alt="" className="relative bottom-48 size-110 " />
+     <img src="src/assets/selling-02.png" alt="" className="relative bottom-48 size-110 " />
      <h2 className="text-2xl relative bottom-58 right-15 font-thin">Calathea plant</h2>
      <p className="w-61 relative bottom-57 right-10 text-base font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
      <h2 className="text-2xl relative bottom-50 right-22 font-thin">Rs. 359/-</h2>
@@ -38,7 +38,7 @@ const selling = () => {
      <div className="relative bottom-220 left-210">
      <div className="selling-card">
      <div className="flex flex-col items-center text-center space-y-4">
-     <img src="src/assets/selling-01.png" alt="" className="relative bottom-48 size-110 " />
+     <img src="src/assets/selling-03.png" alt="" className="relative bottom-48 size-110 " />
      <h2 className="text-2xl relative bottom-58 right-15 font-thin">Calathea plant</h2>
      <p className="w-61 relative bottom-57 right-10 text-base font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
      <h2 className="text-2xl relative bottom-50 right-22 font-thin">Rs. 359/-</h2>
@@ -50,10 +50,10 @@ const selling = () => {
      </div>
      </div>
 
-     <div className="relative bottom-190">
+     <div className="relative bottom-180">
      <div className="selling-card">
      <div className="flex flex-col items-center text-center space-y-4">
-     <img src="src/assets/selling-01.png" alt="" className="relative bottom-48 size-110 " />
+     <img src="src/assets/selling-04.png" alt="" className="relative bottom-48 size-110 " />
      <h2 className="text-2xl relative bottom-58 right-15 font-thin">Calathea plant</h2>
      <p className="w-61 relative bottom-57 right-10 text-base font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
      <h2 className="text-2xl relative bottom-50 right-22 font-thin">Rs. 359/-</h2>
@@ -65,10 +65,10 @@ const selling = () => {
      </div>
      </div>
 
-     <div className="relative bottom-300 left-105">
+     <div className="relative bottom-290 left-105">
      <div className="selling-card">
      <div className="flex flex-col items-center text-center space-y-4">
-     <img src="src/assets/selling-01.png" alt="" className="relative bottom-48 size-110 " />
+     <img src="src/assets/selling-05.png" alt="" className="relative bottom-48 size-110 " />
      <h2 className="text-2xl relative bottom-58 right-15 font-thin">Calathea plant</h2>
      <p className="w-61 relative bottom-57 right-10 text-base font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
      <h2 className="text-2xl relative bottom-50 right-22 font-thin">Rs. 359/-</h2>
@@ -80,10 +80,10 @@ const selling = () => {
      </div>
      </div>
 
-     <div className="relative bottom-410 left-210">
+     <div className="relative bottom-400 left-210">
      <div className="selling-card">
      <div className="flex flex-col items-center text-center space-y-4">
-     <img src="src/assets/selling-01.png" alt="" className="relative bottom-48 size-110 " />
+     <img src="src/assets/selling-06.png" alt="" className="relative bottom-48 size-110 " />
      <h2 className="text-2xl relative bottom-58 right-15 font-thin">Calathea plant</h2>
      <p className="w-61 relative bottom-57 right-10 text-base font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
      <h2 className="text-2xl relative bottom-50 right-22 font-thin">Rs. 359/-</h2>
