@@ -4,6 +4,7 @@ import Main from './components/main';
 import Trendy from "./components/trendy/trendy.jsx"
 import background from "./assets/background.jpg"
 import Selling from "./components/selling/selling.jsx"
+import Customer from "./components/customer/customer.jsx"
 
 
 
@@ -23,6 +24,7 @@ function App() {
     </div>
      
       <Selling />
+      <Customer />
     
 
          

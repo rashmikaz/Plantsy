@@ -4,12 +4,12 @@ import { IoIosArrowBack } from "react-icons/io";
 import gsap from "gsap";
 
 const imageArray = [
-  { src: "src/assets/image-1.jpg", name: "Trendy House Plant", price: "Calathea plant" },
-  { src: "src/assets/image-2.jpeg", name: "Trendy House Plant", price: "Calathea plant" },
-  { src: "src/assets/image-3.png", name: "Trendy House Plant", price: "Calathea plant" },
-  { src: "src/assets/image-4.png", name: "Trendy House Plant", price: "Calathea plant" },
-  { src: "src/assets/5.jpg", name: "Trendy House Plant", price: "Calathea plant" },
-  { src: "src/assets/6.jpg", name: "Trendy House Plant", price: "Calathea plant" },
+  { src: "src/assets/image-1.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/image-2.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/image-3.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/image-4.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/5.jpg", name: "Trendy House Plant", p: "Calathea plant" },
+  { src: "src/assets/6.jpg", name: "Trendy House Plant", p: "Calathea plant" },
 ];
 
 function ImageSlider() {
@@ -50,7 +50,7 @@ function ImageSlider() {
           />
           <div className="infoOverlay">
             <h3>{imageArray[midImage].name}</h3>
-            <p>{imageArray[midImage].price}</p>
+            <p>{imageArray[midImage].p}</p>
             <button>Buy Now</button>
           </div>
         </div>

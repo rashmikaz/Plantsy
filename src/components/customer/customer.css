@@ -1,22 +1,25 @@
-.glass-card {
+
+
+
+  .glass-card-customer {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-radius: 16px;
-    /* padding: 24px; */
-    /* max-width: 400px;
-    max-height: 200px; */
     color: white;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     text-align: center;
-    width: 400px;
-    height: 200px;
-
+    width: 350px;
+    height: 320px;
+  
+    
     position: relative;
     bottom: 120px;
-
+  
+    
+    border-radius: 60px 40px 60px 100px / 80px 60px 40px 100px;
   }
+  
   
   .glass-card-title {
     font-size: 1.5rem;
