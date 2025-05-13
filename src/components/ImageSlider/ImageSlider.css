@@ -5,14 +5,15 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    gap: 20px;
   }
   
   .Images {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
   }
   
   .imageWrapper {
@@ -28,21 +29,13 @@
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     transition: transform 0.3s ease;
+    z-index: 0;
   }
   
   .middleImage {
-    height: 350px;
-    width: 250px;
-    z-index: 1;
-  }
-  
-  .rightImage,
-  .leftImage {
-    height: 230px;
-    width: 150px;
+    height: 410px;
+    width: 310px;
     z-index: 0;
-    filter: blur(3px) saturate(0.5);
-    transform: scale(0.95);
   }
   
   .imageWrapper img {
@@ -50,18 +43,21 @@
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
+
+    position: relative;
+    bottom: 110px;
   }
   
   .infoOverlay {
     position: absolute;
-    bottom: 10px;
+    bottom: 52px;
+    right: 64px;
     text-align: center;
     color: #fff;
     width: 80%;
   }
   
-  .infoOverlay h3,
-  .infoOverlay h4 {
+  .infoOverlay h3 {
     margin: 0;
     font-size: 16px;
   }
@@ -70,54 +66,67 @@
     margin: 5px 0;
     font-weight: bold;
     font-size: 14px;
+
+    position: relative;
+    right: 20px;
   }
   
   .infoOverlay button {
     margin-top: 5px;
     padding: 5px 10px;
-  
     border-radius: 5px;
     border: 2px solid #fff;
     cursor: pointer;
+
+    position: relative;
+    right: 20px;
   }
   
   .buttons {
+    position: absolute;
+    top: 315px;
+    left: 60%;
+    transform: translateX(-50%);
     display: flex;
-    gap: 15px;
-    transform: translateY(-30px);
-  
-    position: relative;
-    top: 40px;
+    gap: 20px;
+    z-index: 2;
   }
   
-  .rightButton,
-  .leftButton {
+  .leftButton,
+  .rightButton {
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 50%;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #fff; */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
   }
   
   .rightButton {
     transform: scaleX(-1);
   }
   
-  .rightButton:hover,
-  .leftButton:hover {
-    /* background-color: #fff; */
-    color: #fff;
+  .leftButton:hover,
+  .rightButton:hover {
+    background: rgba(255, 255, 255, 0.4);
   }
   
   .dotsPlace {
+    position: absolute;
+    bottom: 230px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    z-index: 2;
   }
+  
   
   .dots {
     height: 8px;
@@ -137,23 +146,13 @@
   }
   
   @media (max-width: 768px) {
-    .Images {
-      flex-direction: column;
-      gap: 30px;
-    }
-  
-    .rightImage,
-    .leftImage {
-      display: none;
-    }
-  
     .middleImage {
       width: 220px;
       height: 300px;
     }
   
     .buttons {
-      transform: translateY(0);
+      top: -25px;
     }
   }
   
