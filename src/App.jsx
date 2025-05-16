@@ -6,6 +6,7 @@ import background from "./assets/background.jpg"
 import Selling from "./components/selling/selling.jsx"
 import Customer from "./components/customer/customer.jsx"
 import Best from './components/best/best.jsx';
+import Footer from './components/footer.jsx';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Selling />
       <Customer />
       <Best />
+      <Footer />
     
 
          
