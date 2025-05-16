@@ -10,6 +10,10 @@ const footer = () => {
                 <span className="text-3xl tracking-tight font-bold relative right-3 top-8">Plantsy.</span>
         </div>
 
+        <div className="w-80 relative left-17 top-23">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
       </div>
     </div>
   )
