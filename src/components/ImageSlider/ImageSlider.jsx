@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import gsap from "gsap";
 
 const imageArray = [
-  { src: "src/assets/image-1.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/image-5.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/image-2.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/image-3.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/image-4.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },

@@ -6,13 +6,13 @@ const main = () => {
   return (
     <div>
      <div className='w-200 relative top-40 pl-30'>
-       <h1 className="text-8xl font-semibold">Fresh Greens</h1>
-       <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <h1 className="text-8xl font-bold opacity-75">Fresh Greens</h1>
+       <p className="opacity-75 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
        <a 
           href="#" 
           role="button"
           aria-label="View References"
-          className="py-3 px-4 mx-3 rounded-md border relative top-7 right-3"
+          className="py-3 px-10 mx-3 rounded-md border relative top-7 right-3"
         >
           Explore
         </a>
