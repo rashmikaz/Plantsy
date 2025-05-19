@@ -19,3 +19,4 @@ This is a responsive website built for an indoor plant business using **React**,
 - **Responsive Design** – Optimized for mobile, tablet, and desktop views
 
 ---
+Figma - https://www.figma.com/design/f1FjvakUpqipxj3SnQ2bMC/Untitled?node-id=0-1&t=lsUr5ursHvumqgIE-1
