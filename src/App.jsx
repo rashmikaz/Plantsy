@@ -16,6 +16,7 @@ function App() {
   return (
     <>
    
+   <div className="h-[100vh]">
    <div
       className="bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${background})` }}
@@ -24,14 +25,24 @@ function App() {
       <Main />
       <Trendy />
     </div>
-     
+    
       <Selling />
       <Customer />
       <Best />
-      <Footer />
-    
 
-         
+     <div className="relative bottom-410">
+     <Footer />
+     </div>
+
+   </div>
+  
+   
+     
+      
+      
+     
+     
+
     </>
   )
 }

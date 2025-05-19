@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 
 const footer = () => {
   return (
-    <div>
+    <div >
       <div className="bg-[#222C1D] h-90 ">
         <div className="flex items-center flex-shrink-0 relative left-19 top-10">
                 <img className="h-15 w-15 mr-2 relative top-5" src={logo} alt="Logo" />
@@ -20,7 +20,7 @@ const footer = () => {
             <div>LI</div>
         </div>
 
-        <div className="max-w-md mx-auto relative bottom-16 left-24">
+        <div className="max-w-md mx-auto relative bottom-16 left-24 font-light">
          <h2 className="text-xl font-bold mb-6">Quick Link’s</h2>
          <div className="space-y-2 text-lg">
           <div className="cursor-pointer hover:text-gray-400">Home</div>
@@ -46,6 +46,10 @@ const footer = () => {
             SUBSCRIBE
           </button>
           </form>
+        </div>
+
+        <div className="relative bottom-40 left-237">
+          <p>Plantsy © all right reserve</p>
         </div>
 
     </div>
