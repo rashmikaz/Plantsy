@@ -33,7 +33,7 @@ function Best() {
 
   return (
   
-    <div className="relative bottom-420">
+    <div className="relative bottom-460">
       <h1 className="text-6xl pb-10 relative left-150 top-25">Our Best o2</h1>
       <div className="SliderContainer">
       <div className="SliderImages">

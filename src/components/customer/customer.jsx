@@ -3,7 +3,7 @@ import "./customer.css";
 
 const customer = () => {
   return (
-    <div>
+    <div className="relative bottom-15">
         <h1 className="relative bottom-315 left-120 text-6xl pb-10">Customer Review</h1>
 
         <div className="relative bottom-260 left-35">

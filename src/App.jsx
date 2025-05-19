@@ -30,7 +30,7 @@ function App() {
       <Customer />
       <Best />
 
-     <div className="relative bottom-410">
+     <div className="relative bottom-460">
      <Footer />
      </div>
 

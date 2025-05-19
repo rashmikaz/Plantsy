@@ -13,7 +13,8 @@ const review = () => {
         />
         <div className="relative left-5 bottom-15">
         <h3 className="text-xl font-semibold">alena Patel</h3>
-        <div className="flex text-yellow-400 text-lg relative ">
+       <div className="flex text-lg relative" style={{ color: '#FFF84E' }}>
+
           <span>★</span>
           <span>★</span>
           <span>★</span>
@@ -21,7 +22,7 @@ const review = () => {
           <span>☆</span> 
         </div>
         </div>
-        <p className="text-white/80 text-sm w-70 relative bottom-10">
+        <p className="text-white/80 text-sm w-70 relative bottom-10 text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
         </p>
       </div>
