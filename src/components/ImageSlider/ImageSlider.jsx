@@ -7,7 +7,7 @@ const imageArray = [
   { src: "src/assets/image-5.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/image-6.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/image-2.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
-  { src: "src/assets/image-4.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+  { src: "src/assets/image-7.png", name: "Trendy House Plant", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
   { src: "src/assets/5.jpg", name: "Trendy House Plant", p: "Calathea plant" },
   { src: "src/assets/6.jpg", name: "Trendy House Plant", p: "Calathea plant" },
 ];
