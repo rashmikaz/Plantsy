@@ -16,7 +16,7 @@ const customer = () => {
         />
         <div className="relative left-5 bottom-15">
         <h3 className="text-xl font-semibold">Maxn Raval</h3>
-        <div className="flex text-yellow-400 text-lg relative ">
+        <div className="flex text-lg relative" style={{ color: '#FFF84E' }}>
           <span>★</span>
           <span>★</span>
           <span>★</span>
@@ -41,7 +41,7 @@ const customer = () => {
         />
         <div className="relative left-5 bottom-15">
         <h3 className="text-xl font-semibold">venely k</h3>
-        <div className="flex text-yellow-400 text-lg relative ">
+       <div className="flex text-lg relative" style={{ color: '#FFF84E' }}>
           <span>★</span>
           <span>★</span>
           <span>★</span>
@@ -66,7 +66,7 @@ const customer = () => {
         />
         <div className="relative left-5 bottom-15">
         <h3 className="text-xl font-semibold">Lii thakur</h3>
-        <div className="flex text-yellow-400 text-lg relative ">
+       <div className="flex text-lg relative" style={{ color: '#FFF84E' }}>
           <span>★</span>
           <span>★</span>
           <span>★</span>
