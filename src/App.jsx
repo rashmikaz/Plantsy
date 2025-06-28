@@ -23,12 +23,12 @@ function App() {
     >
       <Navbar />
       <Main />
-      {/* <Trendy /> */}
+      <Trendy />
     </div>
     
-      <Selling />
+      {/* <Selling />
       <Customer />
-      <Best />
+      <Best /> */}
 
      <div className="relative bottom-460">
      <Footer />

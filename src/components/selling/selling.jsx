@@ -4,7 +4,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 
 const selling = () => {
   return (
-   <div className="relative top-30">
+   <div className="absolute top-500">
     <h1 className="relative bottom-9 left-120 text-6xl pb-50 ">Our Top Selling</h1>
 
      <div className="selling-card">

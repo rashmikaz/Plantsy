@@ -5,7 +5,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 const trendy = () => {
   return (
     <div>
-      <div className="relative bottom-40">
+      <div className="absolute top-260">
       <h1 className="relative bottom-40 left-120 text-6xl pb-10">Our Trendy plants</h1>
       <div className="glass-card-1">
           <div className="flex flex-col items-center text-center space-y-4">
@@ -36,7 +36,7 @@ const trendy = () => {
     </div>
 
 
-    <div className="relative bottom-12">
+    <div className="absolute top-410">
       <div className="glass-card-1">
           <div className="flex flex-col items-center text-center space-y-4">
             <img src="src/assets/trendy-02.png" alt="" className="relative left-90 bottom-35" />
