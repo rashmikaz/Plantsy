@@ -26,11 +26,11 @@ function App() {
       <Trendy />
     </div>
     
-      {/* <Selling />
+      <Selling />
       <Customer />
-      <Best /> */}
+      <Best />
 
-     <div className="relative bottom-460">
+     <div className="absolute top-1260">
      <Footer />
      </div>
 
