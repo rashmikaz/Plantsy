@@ -19,11 +19,11 @@ const main = () => {
 
      </div>
 
-     <div className="relative left-100 bottom-50">
+     <div className="absolute left-240 bottom-0">
       <ImageSlider />
      </div>
 
-     <div className="relative bottom-95 left-30">
+     <div className="absolute bottom-0 left-30">
       <Review />
      </div>
     </div>

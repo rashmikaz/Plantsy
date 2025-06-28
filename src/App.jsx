@@ -23,7 +23,7 @@ function App() {
     >
       <Navbar />
       <Main />
-      <Trendy />
+      {/* <Trendy /> */}
     </div>
     
       <Selling />
