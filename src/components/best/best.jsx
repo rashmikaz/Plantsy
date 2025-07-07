@@ -4,12 +4,36 @@ import { IoIosArrowBack } from "react-icons/io";
 import gsap from "gsap";
 
 const imageArray = [
-  { src: "src/assets/image-2.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
-  { src: "src/assets/best-01.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
-  { src: "src/assets/best-03.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
-  { src: "src/assets/best-04.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
-  { src: "src/assets/best-05.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
-  { src: "src/assets/best-06.png", name: "We Have Small And Best O2 Plants Collections", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." },
+  {
+    src: "src/assets/image-2.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
+  {
+    src: "src/assets/best-01.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
+  {
+    src: "src/assets/best-03.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
+  {
+    src: "src/assets/best-04.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
+  {
+    src: "src/assets/best-05.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
+  {
+    src: "src/assets/best-06.png",
+    name: "We Have Small And Best O2 Plants Collections",
+    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
 ];
 
 function Best() {
@@ -32,42 +56,49 @@ function Best() {
   }, [midImage]);
 
   return (
-  
     <div className="absolute top-1000 left-41">
       <h1 className="text-6xl pb-10 absolute left-110 top-25">Our Best o2</h1>
       <div className="SliderContainer">
-      <div className="SliderImages">
-        <div className="NavButtons">
-          <button className="NavLeft" onClick={prevImage} aria-label="Previous Slide">
-            <IoIosArrowBack />
-          </button>
-          <button className="NavRight" onClick={nextImage} aria-label="Next Slide">
-            <IoIosArrowBack />
-          </button>
-        </div>
+        <div className="SliderImages">
+          <div className="NavButtons">
+            <button
+              className="NavLeft"
+              onClick={prevImage}
+              aria-label="Previous Slide"
+            >
+              <IoIosArrowBack />
+            </button>
+            <button
+              className="NavRight"
+              onClick={nextImage}
+              aria-label="Next Slide"
+            >
+              <IoIosArrowBack />
+            </button>
+          </div>
 
-        <div className="SlideWrapper MainImage">
-          <img
-            src={imageArray[midImage].src}
-            alt={imageArray[midImage].name}
-          />
-          <div className="TextOverlay">
-            <h3>{imageArray[midImage].name}</h3>
-            <p>{imageArray[midImage].p}</p>
-            <button>Buy Now</button>
+          <div className="SlideWrapper MainImage">
+            <img
+              src={imageArray[midImage].src}
+              alt={imageArray[midImage].name}
+            />
+            <div className="TextOverlay">
+              <h3>{imageArray[midImage].name}</h3>
+              <p>{imageArray[midImage].p}</p>
+              <button>Buy Now</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="DotContainer">
-        {imageArray.map((_, index) => (
-          <div
-            key={index}
-            className={`Dot ${index === midImage ? "active" : "passive"}`}
-          ></div>
-        ))}
+        <div className="DotContainer">
+          {imageArray.map((_, index) => (
+            <div
+              key={index}
+              className={`Dot ${index === midImage ? "active" : "passive"}`}
+            ></div>
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 }

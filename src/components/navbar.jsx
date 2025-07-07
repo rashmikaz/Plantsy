@@ -1,14 +1,9 @@
 import { Search, ShoppingCart } from "lucide-react";
 // import { useState } from "react";
 import { navItems } from "../constants/index";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
-
-    
-
- 
-
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative lg:text-sm">
@@ -24,20 +19,13 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          
-          <div className="hidden lg:flex justify-center space-x-6 items-center text-white">
-          
-          <Search className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
-          <ShoppingCart className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
-  
-         
-          </div>
 
-         
+          <div className="hidden lg:flex justify-center space-x-6 items-center text-white">
+            <Search className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
+            <ShoppingCart className="w-5 h-5 cursor-pointer hover:text-gray-300 transition-colors" />
+          </div>
         </div>
-       
-     </div>
-         
+      </div>
     </nav>
   );
 };

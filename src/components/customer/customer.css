@@ -1,33 +1,26 @@
+.glass-card-customer {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 350px;
+  height: 320px;
 
+  position: relative;
+  bottom: 120px;
 
+  border-radius: 60px 40px 60px 100px / 80px 60px 40px 100px;
+}
 
-  .glass-card-customer {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    color: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    width: 350px;
-    height: 320px;
-  
-    
-    position: relative;
-    bottom: 120px;
-  
-    
-    border-radius: 60px 40px 60px 100px / 80px 60px 40px 100px;
-  }
-  
-  
-  .glass-card-title {
-    font-size: 1.5rem;
-    margin-bottom: 12px;
-  }
-  
-  .glass-card-description {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.85);
-  }
-  
+.glass-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.glass-card-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+}
